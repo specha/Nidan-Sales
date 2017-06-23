@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "919842220993",
+    "firebase_url": "https://nidan-marketing.firebaseio.com",
+    "project_id": "nidan-marketing",
+    "storage_bucket": "nidan-marketing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919842220993:android:32becea3a47917d0",
+        "android_client_info": {
+          "package_name": "com.nidandc.nidansales"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919842220993-102ei8slupsfe6ae2dddvt50s7eb3rkm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nidandc.nidansales",
+            "certificate_hash": "5031dce0fb83c14172cecefd66a456422916ee6d"
+          }
+        },
+        {
+          "client_id": "919842220993-ims965vlj5a74egdkfjo5utc8oonrfg5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeZ2g2dHDFNjM59Vx1AIZR7fQ4I2FdUDk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919842220993-ims965vlj5a74egdkfjo5utc8oonrfg5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

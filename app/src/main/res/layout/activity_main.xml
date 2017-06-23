@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nidandc.nidansales.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:id="@+id/signInView"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:hint="Enter Username" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/username"
+            android:layout_margin="12dp"
+            android:hint="Enter password"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/registration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="12dp"
+            android:clickable="true"
+            android:onClick="showRegisterPage"
+            android:text="New Registration"
+            android:textSize="24sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registration"
+            android:layout_centerHorizontal="true"
+            android:onClick="signIn"
+            android:text="Sign In" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/registerView"
+        android:visibility="invisible"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:hint="Enter Name"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/register_username"
+            android:layout_below="@id/name"
+            android:hint="Enter Username"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/register_password"
+            android:layout_below="@id/register_username"
+            android:inputType="textPassword"
+            android:hint="Enter Password"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/register_password"
+            android:onClick="registerNewUser"
+            android:text="Register" />
+    </RelativeLayout>
+</FrameLayout>
